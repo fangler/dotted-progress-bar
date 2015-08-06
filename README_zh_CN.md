@@ -3,11 +3,10 @@ Dotted Progress Bar  fork from [igortrncic](https://github.com/igortrncic/dotted
 =======
 ![dotted-progress-bar](https://github.com/fangler/dotted-progress-bar/raw/master/progress.gif)
 
-[中文说明](https://github.com/fangler/dotted-progress-bar/blob/master/README_zh_CN.md)
-
-Usage
+使用方法
 -----
-Use color or drawable for inactiveDot and activeDot.
+activeDot/inactiveDot 可以使用一个drawable 或者一个颜色值
+
 ```xml
 <com.trncic.library.DottedProgressBar
     android:id="@+id/progress"
@@ -27,18 +26,18 @@ progressBar.stopProgress();
 ```
 
 
-Limitations
+限制
 -----------
-* layout_height is sum of paddingTop, paddingBottom and dotSize, it is irrelevant.
+* layout_height 是 paddingTop, paddingBottom and dotSize 之和，所以设置它是无效的。
 
-Changelog
+修改日志
 ---------
-* Modifies 
-    * add others Constructors and do some refactors to support my projects.
-    * for more information, please see [igortrncic](https://github.com/igortrncic/dotted-progress-bar).
+* 重构了代码，增加构造函数用初始化，用来支持自己的项目。
+* 想要查看原始的项目，在 [igortrncic这里](https://github.com/igortrncic/dotted-progress-bar).
+* 本项目仅供学习使用！
 
 * **1.0.0**
-    * Initial release
+    * 第一次提交
 
 License
 -------
@@ -55,4 +54,5 @@ License
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
+
     limitations under the License.
